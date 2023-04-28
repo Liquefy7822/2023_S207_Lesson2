@@ -24,6 +24,9 @@
                                 <rect key="frame" x="0.0" y="368" width="736" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="scrollPhotos:" destination="BYZ-38-t0r" eventType="valueChanged" id="Adf-tS-jBX"/>
+                                </connections>
                             </pageControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvG-jI-13k">
                                 <rect key="frame" x="4" y="166" width="58" height="83"/>
@@ -64,7 +67,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
-                        <outlet property="imageview" destination="nDl-Cu-Xy6" id="NZ5-i7-ewA"/>
+                        <outlet property="imageView" destination="nDl-Cu-Xy6" id="W5s-WH-xXm"/>
                         <outlet property="label_Caption" destination="iXU-Ne-538" id="FQO-nl-bj1"/>
                         <outlet property="pageControl" destination="KBt-Hi-6xF" id="97M-gc-LTd"/>
                     </connections>
